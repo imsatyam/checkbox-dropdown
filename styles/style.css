@@ -1,0 +1,58 @@
+/* *****************************************************************************
+Filename:       style.css
+Author :        Satyam Shandilya
+Version :       1.0
+Description :   This file has css for check box dropdown
+Copyright (C) 2014. All Rights Reserved.
+***************************************************************************** */
+
+body{
+    color: black;
+    background-color: whitesmoke;
+    margin: 10px;
+}
+
+.messageDiv{
+    color: green;
+    margin-top: 30px;
+}
+
+.labelText{
+    font-family: serif;
+    font-weight: normal;
+}
+
+.textBox{
+    width:180px;
+}
+
+.widgetDiv{
+    display: block;
+    margin-top: 10px;
+}
+
+.dropdownClass{
+    position:absolute; 
+    z-index:1111111;
+    border:#000 thin solid;
+    width:182px; 
+    background-color:white;
+    height:100px; 
+    overflow-y:scroll;
+    display:none;
+    float: left; 
+    overflow:auto;
+}
+
+#buttonDiv{
+   display: inline; 
+   margin-left: 10px;
+}
+
+#dropdownSection{
+    float: left;
+}
+
+#selectedContinentsDisplay{
+    margin-top: 10px;
+}

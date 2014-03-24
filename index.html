@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!-- ***************************************************************************
+Filename:       index.html
+Author :        Satyam Shandilya
+Version :       1.0
+Description :   This file has the implementation of check box dropdown using jquery
+Copyright (C) 2014. All Rights Reserved.
+**************************************************************************** -->
+<html>
+    <head>
+        <title>Checkbox-Dropdown</title>
+        <meta charset="UTF-8">
+        
+        <!-- Include style -->
+        <link rel="stylesheet" href="styles/style.css"/>
+        
+        <!-- Include scripts -->
+        <script type="text/javascript" src="js/lib/jquery/jquery.js"></script>
+        <script type="text/javascript" src="js/cbdropdown.js"></script>
+        
+    </head>
+    <body>
+        <div class="messageDiv">
+            Please select the checkboxes in following dropdown and click on "Display Selections" button.        
+        </div>
+        
+        <div class="widgetDiv" id="widgetDiv">
+            
+            <div id="dropdownSection">
+                <input type="text" name="selectedText" id="selectedText" value="" readOnly="readOnly"  class="textBox"/>
+                
+                <div id="continentsList" tabindex="1" class="dropdownClass">
+
+                        <input type='checkbox' value='0' id='selectAllCB'/> &nbsp;
+                        <span class='labelText'>Select All</span><br>
+
+                </div>
+            </div>
+            
+            <div id="buttonDiv">
+                <input type="button" id="clickMe" value="Display Selections"/>
+            </div>
+            
+        </div>
+        
+        <div id="selectedContinentsDisplay">
+            
+        </div>
+    </body>
+</html>
